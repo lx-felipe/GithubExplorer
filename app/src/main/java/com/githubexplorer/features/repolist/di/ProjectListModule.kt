@@ -1,8 +1,8 @@
 package com.githubexplorer.features.repolist.di
 
 import androidx.paging.PagingSource
-import com.githubexplorer.features.core.utils.data.remote.RemoteBuilder
-import com.githubexplorer.features.core.utils.data.remote.RetrofitBuilderImpl
+import com.githubexplorer.core.utils.data.remote.RemoteBuilder
+import com.githubexplorer.core.utils.data.remote.RetrofitBuilderImpl
 import com.githubexplorer.features.repolist.data.ProjectListMapper
 import com.githubexplorer.features.repolist.data.model.ProjectItemResponse
 import com.githubexplorer.features.repolist.data.pagingsource.ProjectsListPagingSource

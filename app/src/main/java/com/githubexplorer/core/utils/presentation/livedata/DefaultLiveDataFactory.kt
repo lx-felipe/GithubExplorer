@@ -1,4 +1,4 @@
-package com.githubexplorer.features.core.utils.presentation.livedata
+package com.githubexplorer.core.utils.presentation.livedata
 
 import androidx.lifecycle.MutableLiveData
 

@@ -1,4 +1,4 @@
-package com.githubexplorer.features.core.utils.data.remote
+package com.githubexplorer.core.utils.data.remote
 
 import com.githubexplorer.BuildConfig
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory

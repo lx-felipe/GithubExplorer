@@ -1,9 +1,9 @@
-package com.githubexplorer.features.core.utils.presentation
+package com.githubexplorer.core.utils.presentation
 
 import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.MutableLiveData
-import com.githubexplorer.features.core.utils.presentation.livedata.DefaultLiveDataFactory
-import com.githubexplorer.features.core.utils.presentation.livedata.LiveDataFactory
+import com.githubexplorer.core.utils.presentation.livedata.DefaultLiveDataFactory
+import com.githubexplorer.core.utils.presentation.livedata.LiveDataFactory
 
 object ViewModelUtils {
     var factory: LiveDataFactory = DefaultLiveDataFactory()
@@ -11,7 +11,7 @@ object ViewModelUtils {
 
     @VisibleForTesting
     fun setFactory(factory: LiveDataFactory) {
-        this.factory = factory
+        ViewModelUtils.factory = factory
     }
 }
 

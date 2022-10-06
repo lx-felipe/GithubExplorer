@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.githubexplorer.features.core.utils.presentation.mutableLiveData
+import com.githubexplorer.core.utils.presentation.mutableLiveData
 import com.githubexplorer.features.repolist.domain.usecase.GetProjectListUseCase
 import com.githubexplorer.features.repolist.domain.model.ProjectItem
 import com.githubexplorer.features.repolist.presentation.state.ProjectListViewState

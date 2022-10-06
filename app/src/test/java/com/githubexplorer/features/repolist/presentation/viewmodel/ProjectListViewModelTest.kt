@@ -4,7 +4,7 @@ import androidx.lifecycle.Observer
 import androidx.paging.PagingData
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.githubexplorer.utils.TestLiveDataFactory
-import com.githubexplorer.features.core.utils.presentation.ViewModelUtils
+import com.githubexplorer.core.utils.presentation.ViewModelUtils
 import com.githubexplorer.features.repolist.domain.usecase.GetProjectListUseCase
 import com.githubexplorer.features.repolist.domain.model.ProjectItem
 import com.githubexplorer.features.repolist.presentation.state.ProjectListViewState
