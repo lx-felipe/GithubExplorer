@@ -1,0 +1,10 @@
+<resources>
+    <!-- Commons -->
+    <string name="app_name">GithubExplorer</string>
+    <string name="commons_try_again">Tentar novamente</string>
+
+
+    <!-- Projects List -->
+    <string name="project_list_title">Github Explorer</string>
+    <string name="project_list_error_message">Ops, não foi possível carregar os repositórios</string>
+</resources>
