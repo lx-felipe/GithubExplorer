@@ -17,7 +17,7 @@
         android:theme="@style/Theme.GithubExplorer"
         tools:targetApi="31">
         <activity
-            android:name=".features.repolist.presentation.activity.ProjectListActivity"
+            android:name=".features.projectlist.presentation.activity.ProjectListActivity"
             android:theme="@style/Theme.MaterialComponents.NoActionBar"
             android:exported="true">
             <intent-filter>

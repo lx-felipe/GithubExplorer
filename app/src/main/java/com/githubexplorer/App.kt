@@ -1,7 +1,7 @@
 package com.githubexplorer
 
 import android.app.Application
-import com.githubexplorer.features.repolist.di.projectListModule
+import com.githubexplorer.features.projectlist.di.projectListModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.loadKoinModules
 import org.koin.core.context.startKoin
